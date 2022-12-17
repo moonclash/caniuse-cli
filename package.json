@@ -13,7 +13,7 @@
     "yargs": "17.6.2"
   },
   "bin": {  
-    "caniuse-cli": "./bin/index.js"  
+    "caniusepls": "./bin/index.js"  
   },
   "repository": {
     "type": "git",
