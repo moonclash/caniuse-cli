@@ -1,0 +1,29 @@
+{
+  "name": "caniuse-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "axios": "1.2.1",
+    "cli-table": "0.3.11",
+    "yargs": "17.6.2"
+  },
+  "bin": {  
+    "caniuse": "./bin/index.js"  
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/moonclash/caniuse-cli.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/moonclash/caniuse-cli/issues"
+  },
+  "homepage": "https://github.com/moonclash/caniuse-cli#readme"
+}
