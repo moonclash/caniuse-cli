@@ -29,8 +29,6 @@ async function getData(feature, limit) {
 }
 const argv = yargs(process.argv.slice(2)).argv;
 
-console.log(argv);
-
 if (argv.h) {
     help();
 }
